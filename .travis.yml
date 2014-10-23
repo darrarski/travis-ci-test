@@ -1,0 +1,7 @@
+language: objective-c
+
+before_install:
+  - chmod +x test.sh
+
+script:
+  - test.sh
