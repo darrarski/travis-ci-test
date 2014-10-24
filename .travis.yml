@@ -1,7 +1,10 @@
 language: objective-c
 
 before_install:
-  - chmod +x test.sh
+  - chmod +x scripts/test.sh
+
+before_script:
+  - scripts/test.sh
 
 script:
-  - test.sh
+  - scripts/test.sh
